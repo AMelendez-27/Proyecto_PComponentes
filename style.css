@@ -8,6 +8,13 @@ header {
   margin-left: -8px;
 }
 
+footer {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: auto;
+  flex-direction: column;
+}
+
 @media (min-width: 1170px) {
   .nav_bar1 {
     height: 5rem;
@@ -125,7 +132,7 @@ header {
     max-width: 435px;
   }
 
-  ul {
+  .ul_navbar1 {
     display: flex;
     width: 100%;
     list-style: none;
@@ -285,5 +292,125 @@ header {
     font-size: 14px;
     color: rgb(65, 65, 65);
   }
+
+  /* -------------------- FOOTER -------------------- */
+  .head_comprar {
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+  .footer_comprar {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    align-items: start;
+    padding-inline-start: 0px;
+    margin-top: 0px;
+  }
+
+  .footer_comprar > li {
+    margin-top: 20px;
+  }
+
+  .footer_comprar > li > a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+  }
+
+  .head_informacion {
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+  .footer_informacion {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    align-items: start;
+    padding-inline-start: 0px;
+    margin-top: 0px;
+  }
+
+  .footer_informacion > li {
+    margin-top: 20px;
+  }
+
+  .footer_informacion > li > a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+  }
+
+  .head_contactar {
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+  .footer_contacto {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    align-items: start;
+    padding-inline-start: 0px;
+    margin-top: 0px;
+  }
+
+  .footer_contacto > li {
+    margin-top: 20px;
+  }
+
+  .footer_contacto > li > a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+  }
+
+  .head_otros {
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+  .footer_otros {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    align-items: start;
+    padding-inline-start: 0px;
+    margin-top: 0px;
+  }
+
+  .footer_otros > li {
+    margin-top: 20px;
+  }
+
+  .footer_otros > li > a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+  }
+
+  .head_comunidad {
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+  .footer_comunidad {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    align-items: start;
+    padding-inline-start: 0px;
+    margin-top: 0px;
+  }
+
+  .footer_comunidad > li {
+    margin-top: 20px;
+  }
+
+  .footer_comunidad > li > a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+  }
 }
-/* -------------------- DESAROLLANDO -------------------- */
