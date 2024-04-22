@@ -8,13 +8,6 @@ header {
   margin-left: -8px;
 }
 
-footer {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: auto;
-  flex-direction: column;
-}
-
 @media (min-width: 1170px) {
   .nav_bar1 {
     height: 5rem;
@@ -52,8 +45,7 @@ footer {
     width: 100%;
     max-width: 600px;
     align-items: center;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 0 10px;
     color: rgb(51, 51, 51);
     font-size: 0.875rem;
     font-weight: 400;
@@ -66,17 +58,22 @@ footer {
     justify-content: center;
     background-color: white;
     box-sizing: border-box;
-    min-width: 160px;
-    height: 43px;
+    min-width: 220px;
+    height: 50px;
     border: 1px solid rgb(204, 204, 204);
     border-radius: 5px;
     cursor: pointer;
+    padding-top: 12px;
+    padding-bottom: 8px;
+    padding-left: 20px;
   }
 
   .nav_arrow {
     width: 12px;
     height: 12px;
-    margin-left: 6px;
+    margin-left: 40px;
+    padding-right: 15px;
+    margin-bottom: 3px;
   }
 
   .container_buscador {
@@ -87,7 +84,7 @@ footer {
   .buscador {
     display: flex;
     align-items: center;
-    height: 41px;
+    height: 48px;
     min-width: 154px;
     width: 100%;
     border: 1px solid rgb(204, 204, 204);
@@ -107,6 +104,12 @@ footer {
     border: 0;
     margin-right: 30px;
     background-color: none;
+    margin-top: 4px;
+  }
+
+  .buscar::placeholder {
+    font-size: 18px;
+    padding-left: 10px;
   }
 
   .container_lupa {
@@ -294,6 +297,21 @@ footer {
   }
 
   /* -------------------- FOOTER -------------------- */
+  footer {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+  }
+
+  .container_footer {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto;
+    flex-direction: column;
+    margin-left: 10%;
+  }
+
   .head_comprar {
     font-weight: bold;
     font-size: 14px;
