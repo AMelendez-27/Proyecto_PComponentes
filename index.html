@@ -10,40 +10,40 @@
     <header>
       <div class="nav_bar1">
         <div>
-          <a href="#">
+          <a href="https://www.pccomponentes.com/" rel="noopener">
             <img
               class="logo"
               src="https://cdn.pccomponentes.com/img/logos/logo-pccomponentes.svg"
               alt="Logo"
             />
+            <img
+              class="logo_phone"
+              src="/src/logo_phone.jpg"
+              alt="Logo"
+            />
           </a>
         </div>
-        <div class="filtro">
-          <div class="categorias">
-            <span>Todas las categorías</span>
-            <img
-              class="nav_arrow"
-              src="./src/nav_arrow.png"
-              alt="Flecha de navegación"
-            />
+        <div class="filter">
+          <div class="catalogue">
+            <input type="checkbox" id="dropdown_toggle" class="dropdown_toggle" />
+            <label for="dropdown_toggle" class="dropdown_button">
+              Todo el catálogo
+              <img class="nav_arrow" src="./src/nav_arrow.png" alt="Flecha de navegación" />
+            </label>
+            <div class="dropdown_content">
+              <a href="#">Todo el catálogo</a>
+              <a href="#">Reacondicionados</a>
+            </div>
           </div>
-          <div class="container_buscador">
+          <div class="container_search">
             <form novalidate></form>
-            <div class="buscador">
-              <div class="container_label_buscar">
-                <input
-                  class="buscar"
-                  aria-label="Buscar"
-                  placeholder="Buscar"
-                />
+            <div class="div_search">
+              <div class="container_label_search">
+                <input class="search" aria-label="Buscar" placeholder="Buscar" />
               </div>
               <div class="container_lupa">
-                <button class="boton_buscador">
-                  <img
-                    class="lupa"
-                    src="./src/lupa.png"
-                    alt="Lupa, botón de busqueda"
-                  />
+                <button class="button_search">
+                  <img class="lupa" src="./src/lupa.png" alt="Lupa, botón de búsqueda" />
                 </button>
               </div>
             </div>
@@ -52,10 +52,13 @@
         <nav class="navegation_menu">
           <ul class="ul_navbar1">
             <li class="li1">
-              <a class="a_compromiso" href="#">
+              <a
+                class="a_commitments"
+                href="https://www.pccomponentes.com/compromisos" rel="noopener"
+              >
                 <div class="container_l1">
                   <img
-                    class="img_compromisos"
+                    class="img_commitments"
                     src="./src/Compromiso.png"
                     alt="Icono caja"
                   />
@@ -64,10 +67,10 @@
               </a>
             </li>
             <li class="li2">
-              <a class="a_cuenta" href="#">
+              <a class="a_account" href="https://www.pccomponentes.com/login" rel="noopener">
                 <div class="container_l2">
                   <img
-                    class="img_cuenta"
+                    class="img_account"
                     src="./src/mi_cuenta.png"
                     alt="Icono perfil"
                   />
@@ -76,10 +79,10 @@
               </a>
             </li>
             <li class="li3">
-              <a class="a_cesta" href="#">
+              <a class="a_shopping_cart" href="#">
                 <div class="container_l3">
                   <img
-                    class="img_carrito"
+                    class="img_shopping_cart"
                     src="./src/Carrito.png"
                     alt="Icono cesta de la compra"
                   />
@@ -91,12 +94,12 @@
         </nav>
       </div>
       <div class="nav_bar2">
-        <div class="container_menu_categorias">
-          <button class="boton_menu_categorias">
-            <div class="menu_categorias">
-              <div class="div_categorias">
+        <div class="container_menu_categories">
+          <button class="button_menu_categories">
+            <div class="menu_categories">
+              <div class="div_categories">
                 <img
-                  class="icon_menu_categorias"
+                  class="icon_menu_categories"
                   src="./src/icono_menu_categorias.png"
                   alt="Icono menu categorias"
                 />
@@ -105,25 +108,31 @@
             </div>
           </button>
         </div>
-        <div class="nav_opciones_menu">
-          <div class="opciones_menu">
-            <div class="menu_lanzamientos">
-              <a class="a_lanzamientos" href="#">
+        <div class="nav_options_menu">
+          <div class="options_menu">
+            <div class="menu_release">
+              <a
+                class="a_release"
+                href="https://www.pccomponentes.com/novedades" rel="noopener"
+              >
                 <span>Lanzamientos y novedades</span>
               </a>
             </div>
-            <div class="menu_ventilacion">
-              <a class="a_ventilacion" href="#">
-                <span>Ventilación y aire acondicionado</span>
+            <div class="menu_acer">
+              <a class="a_acer" href="https://www.pccomponentes.com/acer-week" rel="noopener">
+                <span>Acer Week</span>
               </a>
             </div>
             <div class="menu_xiaomi">
-              <a class="a_xiaomi" href="#">
+              <a class="a_xiaomi" href="https://www.pccomponentes.com/xiaomi" rel="noopener">
                 <span>Descuentos Xiaomi</span>
               </a>
             </div>
-            <div class="menu_ofertas">
-              <a class="a_top" href="#">
+            <div class="menu_deals">
+              <a
+                class="a_top"
+                href="https://www.pccomponentes.com/ofertas-especiales" rel="noopener"
+              >
                 <span>Ofertas TOP</span>
               </a>
             </div>
@@ -133,24 +142,304 @@
     </header>
 
     <main>
-      <section class="hero">
-        <!-- grid -->
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
+      <section class="front">
+        <article class="friki">
+          <a href="https://www.pccomponentes.com/gaming" rel="noopener">
+            <div class="div_friki">
+              <img
+                src="https://img.pccomponentes.com/pcblog/1715896800000/500x320-orgullo-friki.png"
+                alt="Anuncio hasta -40% de descuento en productos gaming"
+              />
+            </div>
+          </a>
+        </article>
+        <article class="tv_euro2024">
+          <a
+            href="https://www.pccomponentes.com/especial-televisores-euro-2024" rel="noopener"
+          >
+            <div class="div_tv_euro2024">
+              <img
+                src="https://img.pccomponentes.com/pcblog/1715637600000/500x320-2-home-ofertas.png"
+                alt="Anuncio hasta el -50% de descuento en televisores"
+              />
+            </div>
+          </a>
+        </article>
+        <article class="cooling">
+          <a href="https://www.pccomponentes.com/especial-clima" rel="noopener">
+            <div class="div_cooling">
+              <img
+                src="https://img.pccomponentes.com/pcblog/1715896800000/500x320-especial-clima.png"
+                alt="Anuncio de productos en venta de la categoria de aire acondicionado y ventiladores"
+              />
+            </div>
+          </a>
+        </article>
+        <article class="releases">
+          <a href="https://www.pccomponentes.com/novedades"  rel="noopener">
+            <div class="more_releases">
+              <img
+                src="https://img.pccomponentes.com/pcblog/1715896800000/768x180-novedades.png"
+                alt="Anuncio de Nuevos lanzamientos y novedades"
+              />
+            </div>
+          </a>
+        </article>
+        <article class="communion">
+          <a href="https://www.pccomponentes.com/regalos-para-ninos" rel="noopener">
+            <div class="more_communion">
+              <img
+                src="https://img.pccomponentes.com/pcblog/1715119200000/768x180-comuniones.jpg"
+                alt="Anuncio de posibles regalos para una comunión"
+              />
+            </div>
+          </a>
+        </article>
       </section>
+      <div class="highlighted_deals">
+        <h2>Ofertas destacadas de la semana</h2>
+      </div>
       <section class="top_sellers">
-        <!-- grid -->
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
+        <article class="article_1">
+          <a href="https://www.pccomponentes.com/pccom-ready-amd-ryzen-5-5600x-16gb-1tb-ssd-rtx-3060" rel="noopener">
+            <div class="product-card">
+              <div class="product-image">
+                <img
+                  src="https://thumb.pccomponentes.com/w-150-150/articles/1079/10792130/1508-pccom-ready-amd-ryzen-5-5600x-16gb-1tb-ssd-rtx-3060-comprar.jpg"
+                  alt="PcCom Ready AMD Ryzen 5 5600X"
+                />
+              </div>
+              <div class="product-details">
+                <h3>
+                  PcCom Ready AMD Ryzen 5 5600X / 16GB / 1TB SSD / RTX 3060
+                </h3>
+                <div class="price">
+                  <span class="current-price">889€</span>
+                  <span class="original-price">1.320,68€</span>
+                </div>
+              </div>
+              <div class="shipping-info">
+                <div class="free-shipping">Envío gratis</div>
+                <div class="delivery-time">Recíbelo mañana</div>
+              </div>
+            </div>
+          </a>
+        </article>
+        <article class="articulo_2">
+          <a href="https://www.pccomponentes.com/asus-tuf-gaming-a15-fa506nc-hn012-amd-ryzen-5-7535h-16gb-512gb-ssd-rtx-3050-156" rel="noopener">
+          <div class="product-card">
+            <div class="product-image">
+              <img
+                src="https://thumb.pccomponentes.com/w-530-530/articles/1081/10817650/1412-asus-tuf-gaming-a15-fa506nc-hn012-amd-ryzen-5-7535h-16gb-512gb-ssd-rtx-3050-156.jpg"
+                alt="Asus TUF Gaming A15"
+              />
+            </div>
+            <div class="product-details">
+              <h3>
+                Asus TUF Gaming A15 FA506NC-HN012 AMD Ryzen 5 7535H/16GB/512GB
+                SSD/RTX
+              </h3>
+              <div class="price">
+                <span class="current-price">699€</span>
+                <span class="original-price">899€</span>
+              </div>
+              <div class="shipping-info">
+                <div class="free-shipping">Envío gratis</div>
+                <div class="delivery-time">Recíbelo mañana</div>
+              </div>
+            </div>
+          </div>
+          </a>
+        </article>
+        <article class="articulo_3">
+          <div class="product-card">
+            <a href="https://www.pccomponentes.com/dreame-d10-plus-robot-aspirador-estacion-de-vaciado-automatico" rel="noopener">
+            <div class="product-image">
+              <img
+                src="https://thumb.pccomponentes.com/w-530-530/articles/1064/10644568/1296-dreame-d10-plus-robot-aspirador-estacion-de-vaciado-automatico-opiniones.jpg"
+                alt="Dreame D10 Plus Robot Aspirador"
+              />
+            </div>
+            <div class="product-details">
+              <h3>
+                Dreame D10 Plus Robot Aspirador + Estación de Vaciado Automático
+              </h3>
+              <div class="price">
+                <span class="current-price">299€</span>
+                <span class="original-price">399€</span>
+              </div>
+              <div class="shipping-info">
+                <div class="free-shipping">Envío gratis</div>
+                <div class="delivery-time">Recíbelo mañana</div>
+              </div>
+            </div>
+          </div>
+          </a>
+        </article>
+        <article class="articulo_4">
+          <div class="product-card">
+            <a href="https://www.pccomponentes.com/lg-32lq631c-32-led-full-hd-smart-tv-wifi" rel="noopener">
+            <div class="product-image">
+              <img
+                src="https://thumb.pccomponentes.com/w-530-530/articles/1065/10658868/1568-lg-32lq631c-32-led-fullhd-hdr.jpg"
+                alt="LG 32LQ631C 32 LED Full HD Smart TV"
+              />
+            </div>
+            <div class="product-details">
+              <h3>LG 32LQ631C 32" LED Full HD Smart TV Wifi</h3>
+              <div class="price">
+                <span class="current-price">199€</span>
+                <span class="original-price">299€</span>
+              </div>
+              <div class="shipping-info">
+                <div class="free-shipping">Envío gratis</div>
+                <div class="delivery-time">Recíbelo mañana</div>
+              </div>
+            </div>
+          </div>
+         </a>
+        </article>
+        <article class="articulo_5">
+          <a href="https://www.pccomponentes.com/movil-realme-12-plus-5g-12-512gb-beige-libre" rel="noopener">
+          <div class="product-card">
+            <div class="product-image">
+              <img
+                src="https://thumb.pccomponentes.com/w-530-530/articles/1082/10828015/1534-realme-12-plus-5g-12-512gb-beige-libre-29474a87-9d28-46a9-a147-1a3d6f486123.jpg"
+                alt="Realme 12 Plus 5G"
+              />
+            </div>
+            <div class="product-details">
+              <h3>Realme 12 Plus 5G 12/512GB Beige Libre</h3>
+              <div class="price">
+                <span class="current-price">349€</span>
+                <span class="original-price">399,69€</span>
+              </div>
+              <div class="shipping-info">
+                <div class="free-shipping">Envío gratis</div>
+                <div class="delivery-time">Recíbelo mañana</div>
+              </div>
+            </div>
+          </div>
+          </a>
+        </article>
+        <article class="articulo_6">
+          <div class="product-card">
+            <a href="https://www.pccomponentes.com/tarjeta-grafica-msi-geforce-rtx-4060-ventus-2x-white-oc-8gb-gddr6-dlss3" rel="noopener">
+            <div class="product-image">
+              <img
+                src="https://thumb.pccomponentes.com/w-530-530/articles/1075/10755558/1958-msi-geforce-rtx-4060-ventus-2x-white-oc-8gb-gddr6-dlss3.jpg"
+                alt="MSI GeForce RTX 4060"
+              />
+            </div>
+            <div class="product-details">
+              <h3>MSI GeForce RTX 4060 VENTUS 2X WHITE OC 8GB GDDR6 DLSS3</h3>
+              <div class="price">
+                <span class="current-price">309€</span>
+                <span class="original-price">333,98€</span>
+              </div>
+              <div class="shipping-info">
+                <div class="free-shipping">Envío gratis</div>
+                <div class="delivery-time">Recíbelo mañana</div>
+              </div>
+            </div>
+          </div>
+          </a>
+        </article>
+        <article class="articulo_7">
+          <a href="https://www.pccomponentes.com/monitor-msi-g27c3f-27-led-fullhd-180hz-freesync-curvo" rel="noopener">
+          <div class="product-card">
+            <div class="product-image">
+              <img
+                src="https://thumb.pccomponentes.com/w-530-530/articles/1080/10800434/1370-msi-g27c3f-27-led-fullhd-180hz-curvo.jpg"
+                alt="MSI G27C3F"
+              />
+            </div>
+            <div class="product-details">
+              <h3>MSI G27C3F 27" LED FullHD 180Hz Curvo</h3>
+              <div class="price">
+                <span class="current-price">169€</span>
+                <span class="original-price">210€</span>
+              </div>
+              <div class="shipping-info">
+                <div class="free-shipping">Envío gratis</div>
+                <div class="delivery-time">Recíbelo mañana</div>
+              </div>
+            </div>
+          </div>
+         </a>
+        </article>
+        <article class="articulo_8">
+          <a href="https://www.pccomponentes.com/apple-iphone-15-pro-max-256gb-titanio-blanco-libre" rel="noopener">
+          <div class="product-card">
+            <div class="product-image">
+              <img
+                src="https://thumb.pccomponentes.com/w-530-530/articles/1077/10777884/1943-apple-iphone-15-pro-max-256gb-titanio-blanco-libre.jpg"
+                alt="Apple iPhone 15 Pro Max"
+              />
+            </div>
+            <div class="product-details">
+              <h3>Apple iPhone 15 Pro Max 256GB Titanio Blanco Libre</h3>
+              <div class="price">
+                <span class="current-price">1.299,01€</span>
+                <span class="original-price">1.469€</span>
+              </div>
+              <div class="shipping-info">
+                <div class="free-shipping">Envío gratis</div>
+                <div class="delivery-time">Recíbelo mañana</div>
+              </div>
+            </div>
+          </div>
+         </a>
+        </article>
+        <article class="articulo_9">
+          <a href="https://www.pccomponentes.com/tempest-apocalypse-combo-gaming-teclado-raton-auriculares-alfombrilla" rel="noopener">
+          <div class="product-card">
+            <div class="product-image">
+              <img
+                src="https://thumb.pccomponentes.com/w-530-530/articles/22/224771/132-tempest-apocalypse-combo-gaming-teclado-raton-auriculares-alfombrilla-comprar.jpg"
+                alt="Tempest Apocalypse Combo Gaming"
+              />
+            </div>
+            <div class="product-details">
+              <h3>
+                Tempest Apocalypse Combo Gaming Teclado + Ratón + Auriculares +
+                Alfombrilla
+              </h3>
+              <div class="price">
+                <span class="current-price">39,99€</span>
+                <span class="original-price">44,99€</span>
+              </div>
+              <div class="shipping-info">
+                <div class="free-shipping">Envío gratis</div>
+                <div class="delivery-time">Recíbelo mañana</div>
+              </div>
+            </div>
+          </div>
+          </a>
+        </article>
+        <article class="articulo_10">
+          <a href="https://www.pccomponentes.com/tempest-cooler-4pipes-120mm-rgb-ventilador-cpu-blanco" rel="noopener">
+          <div class="product-card">
+            <div class="product-image">
+              <img
+                src="https://thumb.pccomponentes.com/w-530-530/articles/51/516909/4138-tempest-pro-cooler-4pipes-white-rgb-ventilador-cpu-120mm-foto.jpg"
+                alt="Tempest Cooler 4Pipes"
+              />
+            </div>
+            <div class="product-details">
+              <h3>Tempest Cooler 4Pipes 120mm RGB Ventilador CPU Blanco</h3>
+              <div class="price">
+                <span class="current-price">29,99€</span>
+                <span class="original-price">41,99€</span>
+              </div>
+              <div class="shipping-info">
+                <div class="free-shipping">Envío gratis</div>
+                <div class="delivery-time">Recíbelo mañana</div>
+              </div>
+            </div>
+          </div>
+          </a>
+        </article>
       </section>
       <section class="our_brands">
         <div></div>
@@ -170,13 +459,13 @@
             <span class="head_comprar">Por qué comprar</span>
             <nav>
               <ul class="footer_comprar">
-                <li><a href="#">Cómo comprar</a></li>
-                <li><a href="#">Formas de pago</a></li>
-                <li><a href="#">Gastos de envío</a></li>
-                <li><a href="#">Cupones descuento</a></li>
-                <li><a href="#">Preguntas frecuentes</a></li>
-                <li><a href="#">Opiniones de clientes</a></li>
-                <li><a href="#">Tarjetas regalo</a></li>
+                <li><a href="https://www.pccomponentes.com/soporte/como-comprar-en-pccomponentes" rel="noopener">Cómo comprar</a></li>
+                <li><a href="https://www.pccomponentes.com/soporte/formas-de-pago" rel="noopener">Formas de pago</a></li>
+                <li><a href="https://www.pccomponentes.com/soporte/gastos-de-envio" rel="noopener">Gastos de envío</a></li>
+                <li><a href="https://www.pccomponentes.com/cupones-descuento-y-codigos-promocionales" rel="noopener">Cupones descuento</a></li>
+                <li><a href="https://www.pccomponentes.com/soporte" rel="noopener">Preguntas frecuentes</a></li>
+                <li><a href="https://www.pccomponentes.com/opiniones" rel="noopener">Opiniones de clientes</a></li>
+                <li><a href="https://www.pccomponentes.com/suscripciones-multimedia/pccomponentes-com" rel="noopener">Tarjetas regalo</a></li>
               </ul>
             </nav>
           </nav>
@@ -186,14 +475,14 @@
             <span class="head_informacion">Quiénes somos</span>
             <nav>
               <ul class="footer_informacion">
-                <li><a href="#">Quiénes somos</a></li>
-                <li><a href="#">Compromisos</a></li>
-                <li><a href="#">Nuestras tiendas</a></li>
-                <li><a href="#">Nuestras Marcas</a></li>
-                <li><a href="#">Condiciones de compra</a></li>
-                <li><a href="#">Afiliados</a></li>
-                <li><a href="#">Aviso legal</a></li>
-                <li><a href="#">Privacidad</a></li>
+                <li><a href="https://www.pccomponentes.com/quienes-somos" rel="noopener">Quiénes somos</a></li>
+                <li><a href="https://www.pccomponentes.com/compromisos" rel="noopener">Compromisos</a></li>
+                <li><a href="https://www.pccomponentes.com/tiendas" rel="noopener">Nuestras tiendas</a></li>
+                <li><a href="https://www.pccomponentes.com/nuestras-marcas" rel="noopener">Nuestras Marcas</a></li>
+                <li><a href="https://www.pccomponentes.com/condiciones-de-compra" rel="noopener">Condiciones de compra</a></li>
+                <li><a href="https://www.pccomponentes.com/afiliados" rel="noopener">Afiliados</a></li>
+                <li><a href="https://www.pccomponentes.com/aviso-legal" rel="noopener">Aviso legal</a></li>
+                <li><a href="https://www.pccomponentes.com/privacidad" rel="noopener">Privacidad</a></li>
               </ul>
             </nav>
           </nav>
@@ -203,15 +492,14 @@
             <span class="head_contactar">Contactar</span>
             <nav>
               <ul class="footer_contacto">
-                <li><a href="#">Centro de soporte</a></li>
-                <li><a href="#">Contacto</a></li>
-                <li><a href="#">Canal ético</a></li>
-                <li><a href="#">Devoluciones y Garantías</a></li>
-                <li><a href="#">Wiki PcComponentes</a></li>
-                <li><a href="#">Opina y Gana</a></li>
-                <li><a href="#">Publicidad</a></li>
-                <li><a href="#">Trabaja con nosotros</a></li>
-                <li><a href="#">Política de cookies</a></li>
+                <li><a href="https://www.pccomponentes.com/soporte" rel="noopener">Contacto y ayuda</a></li>
+                <li><a href="https://www.pccomponentes.com/soporte/devoluciones-y-garantias" rel="noopener">Devoluciones y Garantías</a></li>
+                <li><a href="https://www.pccomponentes.com/wiki" rel="noopener">Wiki PcComponentes</a></li>
+                <li><a href="https://www.pccomponentes.com/opina-y-gana" rel="noopener">Opina y Gana</a></li>
+                <li><a href="https://pcadsretailmedia.com/" rel="noopener">Publicidad</a></li>
+                <li><a href="https://jobs.pccomponentes.com/" rel="noopener">Trabaja con nosotros</a></li>
+                <li><a href="https://pccomponentes.canaletico.app/inicio" rel="noopener">Canal ético</a></li>
+                <li><a href="https://www.pccomponentes.com/cookies" rel="noopener">Política de cookies</a></li>
               </ul>
             </nav>
           </nav>
@@ -221,16 +509,16 @@
             <span class="head_otros">Otros</span>
             <nav>
               <ul class="footer_otros">
-                <li><a href="#">Replay</a></li>
-                <li><a href="#">Black Friday</a></li>
-                <li><a href="#">Cyber Monday</a></li>
-                <li><a href="#">PcDays</a></li>
-                <li><a href="#">Marketplace</a></li>
-                <li><a href="#">Servicio logístico Fulfillment</a></li>
-                <li><a href="#">Servicio de reparaciones</a></li>
-                <li><a href="#">Concursos</a></li>
-                <li><a href="#">Cita asistencia técnica</a></li>
-                <li><a href="#">Responsabilidad Social</a></li>
+                <li><a href="https://www.pccomponentes.com/replay" rel="noopener">Replay</a></li>
+                <li><a href="https://www.pccomponentes.com/black-friday" rel="noopener">Black Friday</a></li>
+                <li><a href="https://www.pccomponentes.com/cyber-monday" rel="noopener">Cyber Monday</a></li>
+                <li><a href="https://www.pccomponentes.com/pcdays" rel="noopener">PcDays</a></li>
+                <li><a href="https://www.pccomponentes.com/marketplace" rel="noopener">Marketplace</a></li>
+                <li><a href="https://www.pccomponentes.com/logistica-fulfillment" rel="noopener">Servicio logístico Fulfillment</a></li>
+                <li><a href="https://www.pccomponentes.com/servicio-de-reparaciones" rel="noopener">Servicio de reparaciones</a></li>
+                <li><a href="https://www.pccomponentes.com/concursos-pccomponentes" rel="noopener">Concursos</a></li>
+                <li><a href="https://www.pccomponentes.com/servicio-tecnico-remoto-asre" rel="noopener">Cita asistencia técnica</a></li>
+                <li><a href="https://www.pccomponentes.com/blog/categoria-rsc" rel="noopener">Responsabilidad Social</a></li>
               </ul>
             </nav>
           </nav>
@@ -240,14 +528,14 @@
             <span class="head_comunidad">Comunidad</span>
             <nav>
               <ul class="footer_comunidad">
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Instagram</a></li>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">Telegram</a></li>
-                <li><a href="#">Youtube</a></li>
-                <li><a href="#">Tik Tok</a></li>
-                <li><a href="#">Twitch</a></li>
+                <li><a href="https://www.pccomponentes.com/blog" rel="noopener">Blog</a></li>
+                <li><a href="https://www.instagram.com/pccomponentes/" rel="noopener">Instagram</a></li>
+                <li><a href="https://x.com/pccomponentes" rel="noopener">Twitter</a></li>
+                <li><a href="https://www.facebook.com/checkpoint/1501092823525282/?next=https%3A%2F%2Fwww.facebook.com%2Fpccomponentes" rel="noopener">Facebook</a></li>
+                <li><a href="https://t.me/pccomponentesESP" rel="noopener">Telegram</a></li>
+                <li><a href="https://www.youtube.com/user/PcComponentescom" rel="noopener">Youtube</a></li>
+                <li><a href="https://www.tiktok.com/@pccomponentes.com" rel="noopener">Tik Tok</a></li>
+                <li><a href="https://www.twitch.tv/pccomponenteses" rel="noopener">Twitch</a></li>
               </ul>
             </nav>
           </nav>
